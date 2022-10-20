@@ -5,57 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abran's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Josefin+Sans:wght@300&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <p><h1>Abran Rodriguez Jr - Full Stack Web Dev</h1></p>
+        <p><h1>Abran Rodriguez Jr</h1><h3>- Full Stack Web Dev</h3></p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#projects"><h2>Projects</h2></a></li>
-            <li><a href="#css art"><h2>CSS Art</h2></a></li>
-            <li><a href="#experience"><h2>Experience</h2></a></li>
-            <li><a href="#footer"><h2>Contact Info</h2></a></li>
-            <li><a href="#about me"><h2>About Me</h2></a></li>
+            <li><a class="over-the-line" href="#projects"><h2>Projects</h2></a></li>
+            <li><a class="under-the-line" href="#css-art"><h2>CSS Art</h2></a></li>
+            <li><a class="over-the-line" href="#experience"><h2>Experience</h2></a></li>
+            <li><a class="under-the-line" href="#contact-me"><h2>Contact Info</h2></a></li>
+            <li><a class="over-the-line" href="#about-me"><h2>About Me</h2></a></li>
         </ul>
     </nav>
 
     <main>
         <aside>
-            <img id="about me" src="" alt="">
-            <h2>Favorite Quote</h2>
-            <figure>
-                <blockquote cite="https://brucelee.com/">
-                    <p><span>Be water, my friend.</span>"Empty your mind. Be formless, shapeless, like water. You put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it into the teapot, it becomes the teapot. Now water can flow or it can crash. Be water, my friend."</p>
-                </blockquote>
-                <figcaption>-Bruce Lee</figcaption>
-            </figure>
-            <section id="css art">
-                <div class="css">
-                    <img src="" alt="">
-                    <p>CSS Art Coming Soon!</p>
-                </div>
-            </section>
+            <img id="about-me" src="" alt="">
+            <fieldset>
+                <legend><h2>Favorite Quote</h2></legend>
+                <figure>
+                    <blockquote cite="https://brucelee.com/">
+                        <p><span>"Be water, my friend.</span>Empty your mind. Be formless, shapeless, like water. You put water into a cup, it becomes the cup. You put water into a bottle, it becomes the bottle. You put it into the teapot, it becomes the teapot. Now water can flow or it can crash. Be water, my friend."</p>
+                    </blockquote>
+                    <figcaption>-Bruce Lee</figcaption>
+                </figure>
+            </fieldset>
         </aside>
 
         <section id="projects">
-            <div class="projects">
-                <img src="" alt="">
+            <div>
+                <img id="large" src="" alt="">
                 <p>Project description</p>
+            </div>
+            <div>
+                <img class="reg" src="" alt="">
+                <p>Project description</p>
+            </div>
+            <div>
+                <img class="reg" src="" alt="">
+                <p>Project description</p>
+            </div>
+            <div>
+                <img class="reg" src="" alt="">
+                <p>Project description</p>
+            </div>
+            <div>
+                <img class="reg" src="" alt="">
+                <p>Project description</p>
+            </div>
+        </section>
+        <section id="css-art">
+            <div class="css">
+                <img src="" alt="">
+                <p>CSS Art Coming Soon!</p>
             </div>
         </section>
         <section id="experience">
             <div class="experience">
                 <img src="" alt="">
-                <p>Project description</p>
+                <p>Experience</p>
             </div>
         </section>
     </main>
 
-        <footer>
-            <section id="contact me">
+        <footer id="contact-me">
+            <section>
                 <div class="contact me">
                    <p><h3 id="footer contact">Contact Me</h3></p>
                    <p><h3 id="phone number">(512) 618 - 3963</h3></p>

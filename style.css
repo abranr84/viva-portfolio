@@ -1,0 +1,129 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+* {
+    font-family: 'Raleway', 'Josefin Sans', 'Dancing Script', cursive, sans-serif;
+}
+
+:root {
+    --cerulean: #20B7DB;
+    --teal: #0189A9;
+    --blue: #03368D;
+    --line-divider: #3bddd4;
+    --charcoal: #36454f;
+}
+
+body {
+    background-color: #506f87;
+}
+
+header {
+    position: relative;
+    border-radius: 60% 30% 60% 30%;
+    display: inline-flex;
+    background-image: linear-gradient(var(--blue),var(--teal));
+    width: 55%;
+    margin: 2px;
+    padding: 10px;
+    border-bottom: solid 5px #000;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow: -1px 1px 5px var(--line-divider);
+}
+
+header h3 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 55%;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 33px;
+    text-shadow: -1px 1px 5px var(--line-divider);
+}
+
+nav {
+    position: relative;
+    margin-top: 15px;
+}
+
+nav ul {
+    background-color: aqua;
+    border-bottom: solid 3px var(--line-divider);
+    width: 55%;
+    margin-left: 40%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #000;
+    text-shadow: -1px 1px 5px var(--line-divider);
+    font-family: 'Raleway', sans-serif;
+    transition: .8s;
+}
+
+a:hover {
+    color: var(--line-divider);
+    text-shadow: -1px 1px 5px #000;
+}
+
+a:focus {
+    color: #e0ffff;
+    text-shadow: -1px 1px 5px #000;
+}
+
+.over-the-line {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -55px;
+}
+
+.under-the-line {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -55px;
+}
+
+aside {
+    height: 50rem;
+    width: 39%;
+    margin: 0 0 5px 5px;
+    padding: 15px;
+}
+
+#about-me {
+    height: 400px;
+    width: 400px;
+    border: solid 3px var(--line-divider);
+    border-radius: 50%;
+}
+
+fieldset {
+    height: 19rem;
+    width: 400px;
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    border: solid 3px var(--line-divider);
+    border-bottom-color: #0189A9;
+    border-radius: 20px 0 20px 0;
+}
+
+legend {
+    padding: 5px;
+    border-top: solid 2px var(--line-divider);
+    border-bottom: solid 2px var(--line-divider);
+    border-radius: 25% 25% 25% 25%;
+}
+
+span,
+figcaption {
+    font-size: 30px;
+}
+
+blockquote p {
+    font-size: 20px;
+}
