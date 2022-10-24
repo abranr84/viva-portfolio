@@ -20,4 +20,4 @@ The following image shows what the completed exercise should display.
 
 Here is the link to the completed exercise for week 2 Portfolio challenge.
 
-![]()
+![Portfolio deployment minus the media queries(uncompleted)](https://abranr84.github.io/wk-2-challange-viva-portfolio/)
